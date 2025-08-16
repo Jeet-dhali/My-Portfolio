@@ -1,10 +1,13 @@
-.navbar {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #291c0e;
-    color: white;
-    text-align: center;
-    font-size: 28px;
+@font-face {
+    font-family: 'scribble-font';
+    src: url('/fonts/Pencilant-Script.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'scribble-font', sans-serif;
+    background-color: #e1d4c3;
 }

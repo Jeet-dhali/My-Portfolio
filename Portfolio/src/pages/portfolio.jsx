@@ -1,4 +1,5 @@
 import { NavBar } from '../components/navbar'
+import { Boxes } from '../components/boxes'
 import './portfolio.css'
 
 function PortfolioPage() {
@@ -6,9 +7,6 @@ function PortfolioPage() {
   return (
     <>
     <NavBar />
-    <p>
-        my portfolio
-    </p>
     </>
   )
 }
