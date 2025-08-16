@@ -1,8 +1,17 @@
 .navbar {
+    display: flex;
+    align-items: center;      
+    justify-content: center;
     width: 100vw;
     height: 100px;
     background-color: #291c0e;
     color: white;
     text-align: center;
     font-size: 28px;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 50px;                
+    align-items: center;     
 }

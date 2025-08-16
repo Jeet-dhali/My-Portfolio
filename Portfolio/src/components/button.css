@@ -6,9 +6,9 @@
 }
 
 .button {
-    display: flex;
     width: 120px;                
     height: 50px;
+    margin: 20px;
     border-radius: 30px;
     font-family: MyFont;
     font-weight: bold;
@@ -25,6 +25,5 @@
 }
 
 .button:hover {
-    width: 125px;                
-    height: 45px;
+    transform: scale(1.1);
 }

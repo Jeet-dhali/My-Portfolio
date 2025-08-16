@@ -1,5 +1,5 @@
 import { NavBar } from '../components/navbar'
-import { Boxes } from '../components/boxes'
+import { Coffee } from '../components/coffee'
 import './portfolio.css'
 
 function PortfolioPage() {
@@ -7,6 +7,7 @@ function PortfolioPage() {
   return (
     <>
     <NavBar />
+    <Coffee />
     </>
   )
 }
