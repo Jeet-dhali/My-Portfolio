@@ -1,17 +1,29 @@
 .navbar {
-    display: flex;
-    align-items: center;      
-    justify-content: center;
     width: 100vw;
     height: 100px;
     background-color: #291c0e;
     color: white;
-    text-align: center;
     font-size: 28px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar nav {
     display: flex;
-    gap: 50px;                
-    align-items: center;     
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.right-section {
+    display: flex;
+    gap: 20px;
+    text-align: right;
+}
+
+.left-section {
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+    text-align: left;
 }

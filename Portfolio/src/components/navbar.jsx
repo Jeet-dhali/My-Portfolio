@@ -7,10 +7,15 @@ export function NavBar() {
     <>
     <div className="navbar">
       <nav>
-        <Button>About Me</Button>
-        <Button>Contact Me</Button>
-        <Button>Skills</Button>
-        <Button>Qualification</Button>
+        <div className="left-section">
+          <h1>Jeet Dhali</h1>
+        </div>
+        <div className="right-section">
+          <Button>About Me</Button>
+          <Button>Contact Me</Button>
+          <Button>Skills</Button>
+          <Button>Qualification</Button>
+        </div>
       </nav>
     </div>
     </>
