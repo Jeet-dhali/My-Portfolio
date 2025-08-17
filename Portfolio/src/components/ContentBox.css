@@ -1,0 +1,10 @@
+.content-box {
+    background-image: url('../assets/boxes.png');
+    background-color: transparent;
+    background-size: contain;    
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 800px;                  
+    height: 500px;                 
+    margin: 0 auto; 
+}
