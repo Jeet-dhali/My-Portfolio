@@ -1,14 +1,9 @@
-.coffee {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 999;             
+.coffee {         
     pointer-events: none;     
 }
 
 .coffee img {
     display: block;
-    max-width: 250px;         
+    max-width: 120px;         
     height: auto;
 }

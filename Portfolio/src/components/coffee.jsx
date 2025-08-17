@@ -5,7 +5,7 @@ export function Coffee() {
     return (
         <>
             <div className='coffee'>
-                <img src={coffeeImg} />
+                <img src={coffeeImg} alt="Coffee" />
             </div>
         </>
     )

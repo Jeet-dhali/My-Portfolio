@@ -14,7 +14,8 @@ export function NavBar() {
           <Button>About Me</Button>
           <Button>Contact Me</Button>
           <Button>Skills</Button>
-          <Button>Qualification</Button>
+          <Button>Projects</Button>
+          <Button>Education</Button>
         </div>
       </nav>
     </div>

@@ -11,3 +11,28 @@ body {
     font-family: 'scribble-font', sans-serif;
     background-color: #e1d4c3;
 }
+
+.intro {
+    font-size: large;
+    font-weight: bolder;
+}
+
+.intro-row {
+    display: flex;
+    align-items: center;    
+    gap: 32px;
+    margin-top: 0px;
+    border: 30px solid #a78d78;
+    border-radius: 5px;
+}
+
+.intro-row h1 {
+    flex: 1;  
+    margin-left: 150px;           
+}
+
+.intro-row .coffee {
+    flex-shrink: 0;
+    margin-right: 100px;
+    padding: 30px;
+}
