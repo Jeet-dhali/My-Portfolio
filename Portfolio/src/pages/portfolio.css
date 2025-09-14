@@ -12,6 +12,8 @@ body {
     background-color: #e1d4c3;
 }
 
+/* INTRO */
+
 .intro {
     font-size: large;
     font-weight: bolder;
@@ -21,18 +23,141 @@ body {
     display: flex;
     align-items: center;    
     gap: 32px;
-    margin-top: 0px;
-    border: 30px solid #a78d78;
-    border-radius: 5px;
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 0px;
 }
 
 .intro-row h1 {
     flex: 1;  
-    margin-left: 150px;           
+    margin-left: 20px;           
 }
 
 .intro-row .coffee {
     flex-shrink: 0;
-    margin-right: 100px;
+    margin-right: 20px;
     padding: 30px;
+}
+
+/* SKILLS */
+
+.skills {   
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 0px;
+}
+
+.skills h1 {
+    margin: 20px;
+    margin-left: 20px; 
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px;
+    margin-left: 20px; 
+}
+
+.skill {
+    border: 3px solid black;
+    padding: 10px 20px;
+    background-color: #f0e3d2;
+}
+
+/* PROJECTS */
+
+.projects {
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 0px;
+}
+
+.projects h1 {
+    margin-left: 20px; 
+}
+
+.projects-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-left: 20px; 
+}
+
+.project-card {
+    flex: 1;
+    max-width: 400px;
+    border: 3px solid black;
+    padding: 15px;
+    background-color: #f0e3d2;
+    margin-bottom: 150px;
+}
+
+.project-card h2 {
+    margin-top: 10px;
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
+.project-links .project-btn {
+    border: 3px solid black;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    text-decoration: none;
+    color: black;
+}
+
+.project-img {
+    text-align: center; 
+}
+
+.project-img img {
+    max-width: 100%;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+
+/* EDUCATION */
+
+.education {
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 0px;
+}
+
+.education h1 {
+    margin-left: 20px; 
+}
+
+.education p {
+    font-size: 1.4rem;
+    margin-left: 20px; 
+}
+
+/* CONTACTS */
+
+.contact {
+    margin: 20px;
+    border: 3px solid black;
+    border-radius: 0px;
+}
+
+.contact h1 {
+    margin-left: 20px;
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+}
+
+.contactpara {
+    margin-left: 20px;
 }
