@@ -65,6 +65,9 @@ body {
 }
 
 .skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 3px solid black;
     padding: 10px 20px;
     background-color: #f0e3d2;

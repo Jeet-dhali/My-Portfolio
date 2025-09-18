@@ -2,6 +2,8 @@ import { NavBar } from '../components/navbar'
 import { Coffee } from '../components/coffee'
 import amazonCloneImg from '../assets/Amazon-clone-ss.png'
 import {useRef} from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCss3Alt, faHtml5, faJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
 import './portfolio.css'
 
 function PortfolioPage() {
@@ -29,12 +31,12 @@ function PortfolioPage() {
     <div ref={skillsRef} className='skills'>
       <h1>Skills</h1>
         <div className="skills-list">
-          <span className="skill">HTML</span>
-          <span className="skill">CSS</span>
-          <span className="skill">JavaScript</span>
-          <span className="skill">React</span>
-          <span className="skill">C++</span>
-          <span className="skill">Python</span>
+          <span className="skill"><FontAwesomeIcon icon={faHtml5} size="2x" /></span>
+          <span className="skill"><FontAwesomeIcon icon={faCss3Alt} size="2x" /></span>
+          <span className="skill"><FontAwesomeIcon icon={faJs} size="2x" /></span>
+          <span className="skill"><FontAwesomeIcon icon={faReact} size="2x" /></span>
+          <span className="skill"><h3>C++</h3></span>
+          <span className="skill"><FontAwesomeIcon icon={faPython} size="2x" /></span>
       </div>
     </div>
 
