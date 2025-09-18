@@ -28,7 +28,6 @@ body {
     align-items: center;    
     gap: 32px;
     margin: 20px;
-    border: 3px solid black;
     border-radius: 0px;
 }
 
@@ -47,8 +46,8 @@ body {
 
 .skills {   
     margin: 20px;
-    border: 3px solid black;
     border-radius: 0px;
+    padding-bottom: 10px;
 }
 
 .skills h1 {
@@ -61,23 +60,23 @@ body {
     flex-wrap: wrap;
     gap: 15px;
     margin: 20px;
-    margin-left: 20px; 
+    margin-left: 20px;
+    align-items: center;
 }
 
 .skill {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid black;
     padding: 10px 20px;
     background-color: #f0e3d2;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);      
 }
 
 /* PROJECTS */
 
 .projects {
     margin: 20px;
-    border: 3px solid black;
     border-radius: 0px;
 }
 
@@ -97,10 +96,10 @@ body {
 .project-card {
     flex: 1;
     max-width: 400px;
-    border: 3px solid black;
     padding: 15px;
     background-color: #f0e3d2;
     margin-bottom: 80px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
 }
 
 .project-card h2 {
@@ -117,7 +116,6 @@ body {
 }
 
 .project-links .project-btn {
-    border: 3px solid black;
     padding: 5px 10px;
     margin-right: 10px;
     background-color: #fff;
@@ -130,6 +128,7 @@ body {
     text-align: center; 
     filter: sepia(40%) contrast(90%);
     border: 2px solid black;
+    cursor: pointer;
 }
 
 .project-img img {
@@ -145,7 +144,6 @@ body {
 
 .education {
     margin: 20px;
-    border: 3px solid black;
     border-radius: 0px;
 }
 
@@ -162,7 +160,6 @@ body {
 
 .contact {
     margin: 20px;
-    border: 3px solid black;
     border-radius: 0px;
 }
 
@@ -173,8 +170,19 @@ body {
 .contact a {
     color: black;
     text-decoration: none;
+    font-size: larger;
 }
 
 .contactpara {
     margin-left: 20px;
+    font-size: larger;
+}
+
+.skills,
+.projects,
+.education,
+.contact,
+.intro-row {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    background-color: #e0d0ba;
 }
