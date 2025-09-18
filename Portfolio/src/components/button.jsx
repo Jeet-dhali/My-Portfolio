@@ -1,6 +1,6 @@
 import './button.css'
 
-export function Button({children}) {
+export function Button({children, onClick}) {
 
     const playHoverSound = () => {
         const audio = new Audio('/soundfx/hover.wav');
@@ -10,7 +10,7 @@ export function Button({children}) {
     
     return (
         <button className="button"
-        onMouseEnter={playHoverSound}>
+        onMouseEnter={playHoverSound} onClick = {onClick}>
             {children}
         </button>
     )

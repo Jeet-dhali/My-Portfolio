@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -85,21 +89,28 @@ body {
     margin-left: 20px; 
 }
 
+
+
 .project-card {
     flex: 1;
     max-width: 400px;
     border: 3px solid black;
     padding: 15px;
     background-color: #f0e3d2;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 }
 
 .project-card h2 {
     margin-top: 10px;
 }
 
+.project-card p {
+    font-size: 20px;
+}
+
 .project-links {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .project-links .project-btn {
@@ -109,10 +120,13 @@ body {
     background-color: #fff;
     text-decoration: none;
     color: black;
+    margin-bottom: 20px;
 }
 
 .project-img {
     text-align: center; 
+    filter: sepia(40%) contrast(90%);
+    border: 2px solid black;
 }
 
 .project-img img {

@@ -1,15 +1,21 @@
 import { NavBar } from '../components/navbar'
 import { Coffee } from '../components/coffee'
-import { ContentBox } from '../components/ContentBox'
-import amazonCloneImg from '../assets/Amazon-clone-ss.png';
+import amazonCloneImg from '../assets/Amazon-clone-ss.png'
+import {useRef} from 'react'
 import './portfolio.css'
 
 function PortfolioPage() {
 
+  const introRef = useRef(null);
+  const skillsRef = useRef(null);
+  const projectsRef = useRef(null);
+  const educationRef = useRef(null);
+  const contactRef = useRef(null);
+
   return (
     <>
-    <NavBar />
-    <div className='intro'>
+    <NavBar introRef={introRef} skillsRef={skillsRef} projectsRef={projectsRef} educationRef={educationRef} contactRef={contactRef} />
+    <div ref={introRef} className='intro'>
       <div className="intro-row">
         <h1>
           I am Jeet Dhali. I like to design my website using art and animations.<br />
@@ -20,7 +26,7 @@ function PortfolioPage() {
       </div>
     </div>
 
-    <div className='skills'>
+    <div ref={skillsRef} className='skills'>
       <h1>Skills</h1>
         <div className="skills-list">
           <span className="skill">HTML</span>
@@ -32,14 +38,14 @@ function PortfolioPage() {
       </div>
     </div>
 
-    <div className='projects'>
+    <div ref={projectsRef} className='projects'>
       <h1>Projects</h1>
       <div className='projects-container'>
         <div className='project-card'>
+          <h2 className='project-name'>Amazon Clone</h2>
           <div className='project-img'>
             <img src={amazonCloneImg}></img>
           </div>
-            <h2 className='project-name'>Amazon Clone</h2>
             <p>This is a amazon clone with fully functional auth system and backend and database</p>
             <div className='project-links'>
               <a href="https://github.com/Jeet-dhali/javascript-amazon-project-main" className="project-btn">View Code</a>
@@ -49,7 +55,7 @@ function PortfolioPage() {
       </div>
     </div>
 
-    <div className='education'>
+    <div ref={educationRef} className='education'>
       <h1>Education</h1>
       <p>National Institute Of Technology Nagaland<br />
       B-Tech in Electrical and Electronics Engineering<br />
@@ -57,7 +63,7 @@ function PortfolioPage() {
       </p>
     </div>
 
-    <div className='contact'>
+    <div ref={contactRef} className='contact'>
       <h1>Contact Me</h1>
       <p className='contactpara'>Email: <a href="mailto:jeetproxy@gmail.com.com">jeetproxy@gmail.com</a></p>
       <p className='contactpara'>GitHub: <a href="https://github.com/Jeet-dhali">github.com/Jeet-dhali</a></p>
